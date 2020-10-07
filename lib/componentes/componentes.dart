@@ -215,6 +215,7 @@ class Componentes {
                 left: 15,
                 bottom: 10,
                 child: Container(
+                  width: size.width * 0.4,
                   padding:
                       EdgeInsets.only(left: 10, right: 10, top: 3, bottom: 5),
                   child: Text(
@@ -222,7 +223,6 @@ class Componentes {
                     style: TextStyle(color: Colors.black, fontSize: 18),
                   ),
                   decoration: BoxDecoration(
-                      color: Colors.white,
                       shape: BoxShape.rectangle,
                       borderRadius: BorderRadius.all(Radius.circular(30.0))),
                 ),
